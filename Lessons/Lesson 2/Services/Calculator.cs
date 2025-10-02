@@ -38,11 +38,11 @@ namespace Lesson_2.Services
                 Operator.Add => operation.LeftOperand + operation.RightOperand,
 
                 // You can extend support by adding:
-                // Operator.Subtract => operation.LeftOperand - operation.RightOperand,
-                // Operator.Multiply => operation.LeftOperand * operation.RightOperand,
-                // Operator.Divide => operation.RightOperand != 0 
-                //     ? operation.LeftOperand / operation.RightOperand 
-                //     : throw new DivideByZeroException("Division by zero is not allowed."),
+                 Operator.Subtract => operation.LeftOperand - operation.RightOperand,
+                 Operator.Multiply => operation.LeftOperand * operation.RightOperand,
+                 Operator.Divide => operation.RightOperand != 0 
+                    ? operation.LeftOperand / operation.RightOperand 
+                    : throw new DivideByZeroException("Division by zero is not allowed."),
 
                 _ => throw new NotSupportedException(
                     $"Operator '{operation.Operator}' is not supported.")

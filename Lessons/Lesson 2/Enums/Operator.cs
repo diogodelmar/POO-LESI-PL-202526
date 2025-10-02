@@ -22,6 +22,6 @@ namespace Lesson_2.Enums
         /// <summary>
         /// Addition operator (+).
         /// </summary>
-        Add
+        Add , Subtract, Multiply, Divide,
     }
 }
