@@ -1,9 +1,9 @@
-﻿namespace Lesson_2;
+﻿/*namespace Lesson_3;
 
 public class Car
 {
     // Definir variáveis
-    public string LicensePlate { get; }
+    public string LicensePlate { get; set; }
     public string Color { get; set; }
     public string Brand { get; set; }
     public string Model { get; set; }
@@ -22,11 +22,4 @@ public class Car
     {
         Console.WriteLine($"License Plate");
     }
-
-
-
-
-
-
-
-}
+} */
