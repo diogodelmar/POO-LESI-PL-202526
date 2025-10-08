@@ -1,4 +1,12 @@
-﻿namespace Lesson_3.Ex
+﻿
+// --------------------------------------
+// Autor: Diogo Gonçalves
+// Data: 06/10/2025
+// GitHub: https://github.com/diogodelmar
+// --------------------------------------
+
+
+namespace Lesson_3.Ex
 {
     public class Vehicle
     {
